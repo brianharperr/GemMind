@@ -1,0 +1,34 @@
+# TODO List for GemMind: AI-Powered Gemstone Classification
+
+## Data Preparation
+- [ ] Clean and preprocess `master.csv` (handle missing values, normalize attributes)
+- [ ] Implement image augmentation for better model generalization
+- [ ] Split dataset into training, validation, and test sets
+
+## Model Development
+- [ ] Build initial CNN model for gemstone classification
+- [ ] Experiment with different architectures (ResNet, EfficientNet, etc.)
+- [ ] Fine-tune model hyperparameters (learning rate, batch size, epochs)
+- [ ] Implement early stopping and learning rate scheduling
+
+## Training & Evaluation
+- [ ] Train model on full dataset
+- [ ] Evaluate model performance (accuracy, precision, recall, F1-score)
+- [ ] Implement confusion matrix visualization for misclassified images
+- [ ] Test model on unseen gemstone images
+
+## Inference & Deployment
+- [ ] Create a script to classify new gemstone images
+- [ ] Optimize model for faster inference (quantization, ONNX conversion)
+- [ ] Package model into a Docker container for easy deployment
+
+## Documentation & Maintenance
+- [ ] Write detailed README with setup and usage instructions
+- [ ] Add docstrings and comments to all scripts
+- [ ] Create sample Jupyter Notebook for quick testing
+- [ ] Set up automated testing for model performance
+- [ ] Implement logging and error handling
+
+## Future Enhancements
+- [ ] Implement gemstone price prediction based on image and metadata
+- [ ] Add support for real-time gemstone classification via webcam

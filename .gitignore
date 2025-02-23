@@ -1,0 +1,5 @@
+*.env
+/env
+/data
+scraper.py
+journal.txt
